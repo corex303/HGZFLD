@@ -5,8 +5,10 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node src/index.js"
+    "lint": "eslint src/",
+    "format": "prettier --write src/"
   },
   "keywords": [
     "project",
@@ -21,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/corex303/HGZFLD/issues"
   },
-  "homepage": "https://github.com/corex303/HGZFLD#readme"
+  "homepage": "https://github.com/corex303/HGZFLD#readme",
+  "devDependencies": {
+    "eslint": "^9.35.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  }
 }
