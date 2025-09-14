@@ -1,0 +1,25 @@
+{
+  "name": "hgzfld",
+  "version": "1.0.0",
+  "description": "A new project by corex303",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/index.js"
+  },
+  "keywords": [
+    "project",
+    "corex303"
+  ],
+  "author": "corex303",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/corex303/HGZFLD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/corex303/HGZFLD/issues"
+  },
+  "homepage": "https://github.com/corex303/HGZFLD#readme"
+}
